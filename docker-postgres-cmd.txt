@@ -1,0 +1,9 @@
+docker compose up -d
+docker exec -it {id} bash
+su postgres // su user name}
+psql
+\l //to list
+\c {name} // connect to data base
+
+npx prisma migrate dev --name create_users_table   // 
+ 
